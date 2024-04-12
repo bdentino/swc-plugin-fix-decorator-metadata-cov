@@ -2,3 +2,5 @@
 src
 tests
 Cargo.*
+target/
+!target/wasm32-wasi/release/*.wasm
