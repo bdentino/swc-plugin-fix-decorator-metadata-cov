@@ -14,7 +14,7 @@
     "decorator"
   ],
   "type": "module",
-  "main": "./target/wasm32-wasi/release/swc_plugin_fix_metadata_cov.wasm",
+  "main": "./target/wasm32-wasi/release/swc_plugin_fix_decorator_metadata_cov.wasm",
   "scripts": {
     "prepack": "cargo build-wasi --release"
   }
