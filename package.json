@@ -1,6 +1,6 @@
 {
   "name": "swc-plugin-fix-decorator-metadata-cov",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "author": "Brian Dentino",
   "license": "MIT",
