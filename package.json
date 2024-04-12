@@ -1,0 +1,21 @@
+{
+  "name": "swc-plugin-fix-decorator-metadata-cov",
+  "version": "0.1.0",
+  "description": "",
+  "author": "Brian Dentino",
+  "license": "MIT",
+  "keywords": [
+    "swc-plugin",
+    "coverage",
+    "v8",
+    "swc",
+    "jest",
+    "nestjs",
+    "decorator"
+  ],
+  "type": "module",
+  "main": "./target/wasm32-wasi/release/swc_plugin_fix_metadata_cov.wasm",
+  "scripts": {
+    "prepack": "cargo build-wasi --release"
+  }
+}
